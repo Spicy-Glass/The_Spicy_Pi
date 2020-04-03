@@ -1,0 +1,5 @@
+pygame
+google
+google-cloud-pubsub==1.3.1
+gpiozero import LED
+from gpiozero import Button
