@@ -1,5 +1,3 @@
-
-Project/key.json
-Project/key.json
-Project/key.json
-README.md
+*.key
+.idea/
+__pycache__/
