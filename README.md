@@ -15,13 +15,16 @@ Finally you will need to set up the hardware as specified [here] (https://www.ra
 
 Fist thing you need to do is to connect to the raspberry pi.  Once done, you will need to run the main.py file.  This will pop up a simple screen and you'll see the text.
 ```
-
+pygame 1.9.4.post1
+Hello from the pygame community, http://www.pygame.org/contribute.html
+Went into the Thread!
 ```
 Now that the program is running.  You can now click on the button.
 When you hit the button the program will state
 ```
+Button was pressed! Defrost on!
 ```
-And the screen will show that the front defrost has been either turned on or off.
+And the screen will show that the front defrost has been turned on.
 
 
 Built With
