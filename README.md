@@ -1,7 +1,7 @@
-#The Spicy Pi
+# The Spicy Pi
 This is the hardware for the capstone project, Spicy glass. This simiulates the app interacting with the car and altering aspects of the car.  As well, it simulates the hardware alterations affecting the app.
 
-#Getting Started and Prerequisites
+# Getting Started and Prerequisites
 First you will have to have a raspeberry pi ready to go, and explanation of this can be found [here](https://magpi.raspberrypi.org/articles/set-up-raspberry-pi-4).
 
 I personally used Putty [download link](https://www.google.com/search?q=putty&rlz=1C1CHBF_enUS893US893&oq=putty&aqs=chrome..69i57j0l7.551j0j4&sourceid=chrome&ie=UTF-8), winSCP [download link](https://winscp.net/eng/index.php), and VNC [download link](https://www.realvnc.com/en/connect/download/viewer/) viewer but you can set it up however you like.
