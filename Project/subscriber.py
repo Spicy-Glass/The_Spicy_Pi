@@ -7,7 +7,7 @@ import Pi
 class Subscriber:
     def __init__(self, project_id, subscriber, topic_name):
         service_account_info = json.load(open("key.json"))
-
+        audience = "https://pubsub.googleapis.com/google.pubsub.v1.Subscriber"
         credentials = jwt.Credentials.from_service_account_info(
             service_account_info, audience=audience
         )
@@ -33,6 +33,7 @@ class Subscriber:
             if recipient == self.subscriber_name:
                 print("Message is meant for this subscriber!\n")
                 Pi.states_dic = message_dict
+                Pi.check = 1
         except Exception as e:
             print(f"{decoded_message} was not a string dictionary.")
             print(f"Exception: {e}")
